@@ -15,10 +15,6 @@ sudo systemctl mask udisks2.service
 # get whitelist file from drive
 filename="whitelist.txt"
 path="/home/professor/vm-config"
-url="shorturl.at/cghjN"
-
-# if you want every vm to fetch whitelist from internet, uncomment this
-#wget -q -O - $url > "$path/$filename"
 
 # stop dns service
 sudo systemctl stop systemd-resolved
