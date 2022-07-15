@@ -1,4 +1,3 @@
 apnp.ifsul.edu.br
 php.net
 developer.mozilla.org
-foo.bar
