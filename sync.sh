@@ -8,5 +8,4 @@
 # -------------------------------------------------------------
 
 # pull from repo
-cd /home/professor/vm-config
-git pull
+sudo -u professor git -C /home/professor/vm-config pull origin main
