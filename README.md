@@ -4,7 +4,7 @@ Este repositório contém os scripts necessários para usar a vm de provas.
 
 Esta VM funciona quase sozinha. Para usar em um novo lab, só copiem a imagem da VM nos pcs. A cada vez que a VM iniciar, tem um cronjob que sincroniza os scripts e a whitelist com o repositório, Assim qualquer atualização não precisa atualizar cada pc.
 
-A VM pode ser baixada [neste link](https://drive.google.com/uc?export=download&id=1-KASKMYsUyMzixXTnynUheW6zpIFmAV0).
+A VM pode ser baixada [neste link](https://drive.google.com/uc?export=download&id=1-KASKMYsUyMzixXTnynUheW6zpIFmAV0). É só baixar o zip, descompactar na pasta desejada, carregar a VM no [VirtualBox](https://www.virtualbox.org/), e iniciar.
 
 ## Funcionalidades
 
