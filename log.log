@@ -1,0 +1,23 @@
+Atingido:1 http://br.archive.ubuntu.com/ubuntu jammy InRelease
+Atingido:2 http://br.archive.ubuntu.com/ubuntu jammy-updates InRelease
+Atingido:3 http://br.archive.ubuntu.com/ubuntu jammy-backports InRelease
+Atingido:4 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Atingido:5 https://ppa.launchpadcontent.net/serge-rider/dbeaver-ce/ubuntu jammy InRelease
+Lendo listas de pacotes...
+Repositório: 'deb https://ppa.launchpadcontent.net/serge-rider/dbeaver-ce/ubuntu/ jammy main'
+Descrição:
+DBeaver Community Edition
+Universal Database Tool and SQL Client
+https://dbeaver.io/
+Mais informação: https://launchpad.net/~serge-rider/+archive/ubuntu/dbeaver-ce
+Adicionando repositório.
+Found existing deb entry in /etc/apt/sources.list.d/serge-rider-ubuntu-dbeaver-ce-jammy.list
+Adding deb entry to /etc/apt/sources.list.d/serge-rider-ubuntu-dbeaver-ce-jammy.list
+Found existing deb-src entry in /etc/apt/sources.list.d/serge-rider-ubuntu-dbeaver-ce-jammy.list
+Adding disabled deb-src entry to /etc/apt/sources.list.d/serge-rider-ubuntu-dbeaver-ce-jammy.list
+Adding key to /etc/apt/trusted.gpg.d/serge-rider-ubuntu-dbeaver-ce.gpg with fingerprint 30ECE32520D438C21E16BF884A71B51882788FD2
+Lendo listas de pacotes...
+Construindo árvore de dependências...
+Lendo informação de estado...
+dbeaver-ce já é a versão mais recente (22.1.2~ubuntu16.04).
+0 pacotes atualizados, 0 pacotes novos instalados, 0 a serem removidos e 30 não atualizados.
