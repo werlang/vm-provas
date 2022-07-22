@@ -1,3 +1,5 @@
 apnp.ifsul.edu.br
 php.net
 developer.mozilla.org
+mysql.com
+dbeaver.io
