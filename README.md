@@ -39,6 +39,10 @@ Este é o único script que **não é chamado automaticamente no boot**. Desta m
 
 Faz um pull neste repositório. Este é o script que possibilita a sincronização automática de atualizações dos scripts e whitelist a cada reboot da máquina.
 
+### install.sh
+
+Nesse script você pode colocar qualquer coisa que queira executar quando iniciar a máquina, por exemplo instalar um programa específico, alterar alguns arquivos via linha de comando, etc. Lembre-se de apagar os comandos e fazer o push depois que as máquinas já tenham iniciado, senão os comandos serão executados toda vez que a máquina iniciar.
+
 ### whitelist.txt
 
 Aqui deve conter uma lista de domínios, separados por quebra de linha (um Enter), que poderão ser acessados mesmo após o bloqueio da internet estar ativado.
