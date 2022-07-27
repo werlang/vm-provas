@@ -4,7 +4,9 @@
 # Run @reboot
 # -------------------------------------------------------------
 
-sudo /home/professor/vm-config/restore.sh
-sudo /home/professor/vm-config/sync.sh
-sudo PATH='/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin' /home/professor/vm-config/install.sh
-sudo /home/professor/vm-config/block.sh
+path="/home/professor/vm-config"
+
+sudo "$path/restore.sh"
+sudo "$path/sync.sh"
+sudo PATH='/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin' "$path/install.sh"
+sudo "$path/block.sh"
