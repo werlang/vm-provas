@@ -43,6 +43,10 @@ Faz um pull neste repositório. Este é o script que possibilita a sincronizaç�
 
 Nesse script você pode colocar qualquer coisa que queira executar quando iniciar a máquina, por exemplo instalar um programa específico, alterar alguns arquivos via linha de comando, etc. Lembre-se de apagar os comandos e fazer o push depois que as máquinas já tenham iniciado, senão os comandos serão executados toda vez que a máquina iniciar.
 
+### install_manual.sh
+
+Mesma coisa que o install, com a diferença que ele não vai ser chamado no boot. Antes da execução dos seus comandos ele vai executar o `restore.sh` e o `sync.sh`, e após a execução ele vai executar o `block.sh`.
+
 ### whitelist.txt
 
 Aqui deve conter uma lista de domínios, separados por quebra de linha (um Enter), que poderão ser acessados mesmo após o bloqueio da internet estar ativado.
