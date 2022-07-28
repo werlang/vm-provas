@@ -12,6 +12,7 @@ sudo "$path/sync.sh"
 
 # YOUR COMMANDS GOES HERE
 
+sudo mysql --user="root" --password="profs22inf" --execute="ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '';"
 
 sudo add-apt-repository -y ppa:serge-rider/dbeaver-ce
 sudo apt-get install -y dbeaver-ce
