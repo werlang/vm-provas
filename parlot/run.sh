@@ -1,13 +1,11 @@
 #!/bin/bash
 
-EXPORT PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
-
 ROOM="temp-room"
-PATH="/home/professor/vm-config/parlot"
+PPATH="/home/professor/vm-config/parlot"
 FILE="config.json"
 
-if [ -f "$PATH/$FILE" ]; then
-    "$PATH/worker"
+if [ -f "$PPATH/$FILE" ]; then
+    "$PPATH/worker"
 else 
-    "$PATH/worker" "-r" "$ROOM" "-a"
+    "$PPATH/worker" "-r" "$ROOM" "-a"
 fi
