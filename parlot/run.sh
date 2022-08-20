@@ -1,8 +1,11 @@
 #!/bin/bash
 
-FILE=./config.json
-if [ -f "$FILE" ]; then
-    ./worker
+ROOM="temp-room"
+PATH="/home/professor/vm-config/parlot"
+FILE="config.json"
+
+if [ -f "$PATH/$FILE" ]; then
+    "$PATH/worker"
 else 
-    ./worker -r $ROOM -a
+    "$PATH/worker" "-r" "$ROOM" "-a"
 fi
