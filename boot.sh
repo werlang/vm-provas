@@ -11,4 +11,4 @@ sudo "$path/sync.sh"
 sudo PATH='/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin' "$path/install.sh"
 sudo "$path/block.sh"
 
-sudo "$path/parlot/worker"
+sudo "$path/parlot/run.sh"
