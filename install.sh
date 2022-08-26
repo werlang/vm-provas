@@ -12,3 +12,7 @@
 
 # sudo /home/professor/vm-config/parlot/worker -r lab2 -a
 # sudo mv config.json /home/professor/vm-config/parlot/config.json
+
+sudo apt install -y default-jre
+sudo apt install -y snapd
+sudo snap install -y --classic eclipse
