@@ -2,3 +2,4 @@ apnp.ifsul.edu.br
 php.net
 developer.mozilla.org
 parlot.tk
+w3schools.com
