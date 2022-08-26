@@ -12,3 +12,6 @@ sudo PATH='/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin' "$path/
 sudo "$path/block.sh"
 
 sudo "$path/parlot/run.sh"
+
+# prevent sleep
+sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
