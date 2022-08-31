@@ -15,4 +15,4 @@
 
 sudo /usr/bin/apt install -y default-jre
 sudo /usr/bin/apt install -y snapd
-sudo /usr/bin/snap install -y --classic eclipse
+sudo /usr/bin/snap install --classic eclipse
