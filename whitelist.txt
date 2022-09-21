@@ -4,3 +4,4 @@ developer.mozilla.org
 parlot.tk
 w3schools.com
 docs.google.com
+vscode.dev
