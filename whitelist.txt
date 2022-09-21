@@ -7,3 +7,4 @@ docs.google.com
 vscode.dev
 update.code.visualstudio.com
 vscode-unpkg.net
+vscode-cdn.net
