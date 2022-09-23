@@ -17,4 +17,8 @@
 # sudo /usr/bin/apt install -y snapd
 # sudo /usr/bin/snap install --classic eclipse
 
+# apt install -y lxqt
+# apt install -y sddm
+# dpkg --configure -a (on vm, need tty)
+
 # sudo chown professor:professor /home/professor/vm-config
