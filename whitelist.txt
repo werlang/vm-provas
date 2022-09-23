@@ -3,7 +3,6 @@ php.net
 developer.mozilla.org
 parlot.tk
 w3schools.com
-docs.google.com
 vscode.dev
 update.code.visualstudio.com
 vscode-unpkg.net
