@@ -17,4 +17,4 @@
 # sudo /usr/bin/apt install -y snapd
 # sudo /usr/bin/snap install --classic eclipse
 
-sudo chown professor:professor /home/professor/vm-config
+# sudo chown professor:professor /home/professor/vm-config
