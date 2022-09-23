@@ -9,3 +9,6 @@
 
 # remove everything except www, snap, and hidden files
 find /home/aluno/ -not \( -path '*/snap' -prune -o -path '*/.*' -prune -o -path '*/www' -o -path '*/' \) -name \* -exec rm -r '{}' \;
+
+# remove php folder
+sudo rm -rf /var/www/html/*

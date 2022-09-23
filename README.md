@@ -31,7 +31,7 @@ Restaura acesso normal da internet e dispositivos externos. Como o bloqueio é f
 
 ### clean.sh
 
-Remove a pasta do aluno, e substitui ela com o conteúdo de `aluno-home.zip`, que é a pasta do aluno vazia, e com configurações "zeradas". Também limpa a pasta do apache, para caso a prova seja feita na linguagem PHP.
+Remove as pastas na home do aluno. Também limpa a pasta do apache, para caso a prova seja feita na linguagem PHP.
 
 Este é o único script que **não é chamado automaticamente no boot**. Desta maneira garante que os alunos não perderão seus arquivos caso o pc desligue sem querer. Recomendado o professor chamar **sempre antes da prova**.
 
