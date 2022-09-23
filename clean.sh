@@ -12,3 +12,6 @@ find /home/aluno/ -not \( -path '*/snap' -prune -o -path '*/.*' -prune -o -path 
 
 # remove php folder
 sudo rm -rf /var/www/html/*
+
+# remove Trash folder
+sudo rm -rf /home/aluno/.local/share/Trash
